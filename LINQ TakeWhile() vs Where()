@@ -1,0 +1,13 @@
+LINQ TakeWhile() vs Where() — Same Condition, Different Results!
+
+Both methods filter collections, but there's an important difference.
+
+🔸 Where() checks the entire sequence and returns all matching elements.
+
+🔸 TakeWhile() returns elements only until the first condition fails. Once it fails, it stops, even if later elements match.
+
+The order of elements matters when using TakeWhile().
+
+✅ Use Where() when you need all matching elements.
+
+✅ Use TakeWhile() when you need consecutive matching elements from the beginning of a sequence.
